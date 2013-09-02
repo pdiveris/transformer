@@ -1,0 +1,24 @@
+{
+    "name": "pdiveris/transformer",
+    "type": "library",
+    "description": "A Laravel View Engine for CMSs",
+    "keywords": ["laravel", "laravel 4", "view", "php"],
+    "homepage": "https://github.com/pdiveris/transformer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Petros Diveris",
+            "email": "petros@diveris.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Bentleysoft\\Transformer": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}a
